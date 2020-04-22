@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>论文专利</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/webjars/popper.js/1.11.1/dist/popper.min.js}"></script>
+    <!-- Custom styles for this template -->
+    <link th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+    <script th:src="@{/asserts/js/bootstrap.min.js}"></script>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.0.0/js/bootstrap.js}"></script>
+    <style type="text/css">
+        /* Chart.js */
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+    </style>
+    <style>
+        .left {
+            /*transform: translateX(-8%); !**左移元素**!*/
+            /*-ms-transform: translateX(-8%);*/
+            /*-webkit-transform: translateX(-8%);*/
+            /*width: 80cm;*/
+        }
+    </style>
+</head>
+
+<body>
+<!--引入抽取的topbar-->
+<!--模板名：会使用thymeleaf的前后缀配置规则进行解析-->
+<div th:replace="commons/bar::topbar"></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <!--引入侧边栏-->
+        <div th:replace="commons/bar::#sidebar(activeUri='research')"></div>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <h1 class="h2" th:align="center">研究成果</h1>
+            <p></p>
+            <a th:href="@{/addresearch}">
+                <button type="button" class="btn btn-primary btn-block container" style="width:1105px" th:align="center">上传</button>
+            </a>
+
+            <p></p>
+            <div class="container left">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                论文
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show">
+                            <div class="card-body" th:each="pap:${papper}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>
+                                            <a class="card-title" th:text="${pap.filename}"
+                                               th:href="@{/researchdownload/}+${pap.id}"></a>
+                                        </h4>
+                                        <p class="card-text" th:text="'描述: '+${pap.description}"></p>
+                                        <a class="card-link"
+                                           th:text="'上传时间: '+${#dates.format(pap.datetime, 'yyyy-MM-dd HH:mm')}"></a>
+                                        <a class="card-link"> </a>
+                                        <button th:if="${pap.author} eq ${session.loginId}" th:attr="del_uri=@{/delresearch/}+${pap.id}" class="btn btn-sm btn-danger deleteBtn">删除我的论文</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapsetwo">
+                                专利
+                            </a>
+                        </div>
+                        <div id="collapsetwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body" th:each="pat:${patent}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>
+                                            <a class="card-title" th:text="${pat.filename}"
+                                               th:href="@{/researchdownload/}+${pat.id}"></a>
+                                        </h4>
+                                        <p class="card-text" th:text="'描述: '+${pat.description}"></p>
+                                        <a class="card-link"
+                                           th:text="'上传时间: '+${#dates.format(pat.datetime, 'yyyy-MM-dd HH:mm')}"></a>
+                                        <a class="card-link" >                           </a>
+                                        <!--<a class="btn btn-sm btn-primary" th:href="@{/updcode/}+${mcode.id}">编辑</a>-->
+                                        <button th:if="${pat.author} eq ${session.loginId}" th:attr="del_uri=@{/delresearch/}+${pat.id}" class="btn btn-sm btn-danger deleteBtn">删除我的专利</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapsethree">
+                                其他
+                            </a>
+                        </div>
+                        <div id="collapsethree" class="collapse" data-parent="#accordion">
+                            <div class="card-body" th:each="pap:${others}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>
+                                            <a class="card-title" th:text="${pap.filename}"
+                                               th:href="@{/researchdownload/}+${pap.id}"></a>
+                                        </h4>
+                                        <p class="card-text" th:text="'描述: '+${pap.description}"></p>
+                                        <a class="card-link"
+                                           th:text="'上传时间: '+${#dates.format(pap.datetime, 'yyyy-MM-dd HH:mm')}"></a>
+                                        <a class="card-link" >                           </a>
+                                        <!--<a class="btn btn-sm btn-primary" th:href="@{/updcode/}+${mcode.id}">编辑</a>-->
+                                        <button th:if="${pap.author} eq ${session.loginId}"  th:attr="del_uri=@{/delresearch/}+${pap.id}" class="btn btn-sm btn-danger deleteBtn">删除我的文件</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+        <form id="deleteEmpForm"  method="post">
+            <input type="hidden" name="_method" value="delete"/>
+        </form>
+    </div>
+</div>
+<script>
+    feather.replace()
+</script>
+<script>
+    $(".deleteBtn").click(function(){
+        $("#deleteEmpForm").attr("action",$(this).attr("del_uri")).submit();
+        return false;
+    });
+</script>
+</body>
+</html>

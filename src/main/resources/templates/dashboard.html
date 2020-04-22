@@ -1,0 +1,160 @@
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>个人主页</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/webjars/popper.js/1.11.1/dist/popper.min.js}"></script>
+    <!-- Custom styles for this template -->
+    <link th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+    <script th:src="@{/asserts/js/bootstrap.min.js}"></script>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.0.0/js/bootstrap.js}"></script>
+    <style type="text/css">
+        /* Chart.js */
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .imgsize{
+            width: 200px;height: 200px;
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+    </style>
+</head>
+
+<body>
+<!--引入topbar-->
+<div th:replace="commons/bar::topbar"></div>
+<div class="container-fluid">
+    <div class="row">
+        <!--引入侧边栏-->
+        <div th:replace="commons/bar::#sidebar(activeUri='toIndex')"></div>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <div class="container left">
+                <div class="card">
+                    <div class="card-body" >
+                        <div class="float-left">
+                            <h4 class="card-title" th:text="${user.name}">姓名</h4>
+                            <p class="card-text" th:text="${user.sign}">个性签名</p>
+                            <a class="card-link" th:text="'年龄： '+${user.age}">100</a>
+                            <a class="card-link" th:text="'性别： '+${user.gender}">汪星人</a>
+                            <a class="card-link" th:text="'年级： '+${user.grade}">研一</a>
+                            <p></p>
+                            <p class="card-text" th:text="'E-mail: '+${user.email}">暂无email</p>
+                            <a class="btn btn-sm btn-primary" th:href="@{/toUpdatemyself}">编辑个人资料</a>
+                        </div>
+                        <img th:src="@{/getImg}"  class="imgsize rounded float-right">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p></p>
+            <div class="container left">
+                <div id="accordion">
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                我的科研成果
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show">
+                            <div class="card-body" th:each="pap:${research}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>
+                                            <a class="card-title" th:text="${pap.filename}"
+                                               th:href="@{/researchdownload/}+${pap.id}"></a>
+                                        </h4>
+                                        <p class="card-text" th:text="'描述: '+${pap.description}"></p>
+                                        <a class="card-link"
+                                           th:text="'类别: '+${pap.category}"></a>
+                                        <a class="card-link"> </a>
+                                        <a class="card-link"
+                                           th:text="'上传时间: '+${#dates.format(pap.datetime, 'yyyy-MM-dd HH:mm')}"></a>
+                                        <a class="card-link">
+                                            <button th:attr="del_uri=@{/indexDelResearch/}+${pap.id}"
+                                                    class="btn btn-sm btn-danger deleteBtn">删除
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 shadow-sm">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                我的周报
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse show">
+                            <div class="card-body" th:each="pap:${report}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>
+                                            <a class="card-title" th:text="${pap.filename}"
+                                               th:href="@{/reportdownload/}+${pap.id}"></a>
+                                        </h4>
+                                        <a class="card-link"
+                                           th:text="'上传时间: '+${#dates.format(pap.datetime, 'yyyy-MM-dd HH:mm')}"></a>
+                                        <a class="card-link">
+                                            <button th:attr="del_uri=@{/indexDelReport/}+${pap.id}"
+                                                    class="btn btn-sm btn-danger deleteBtn">删除
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <form id="deleteEmpForm" method="post">
+            <input type="hidden" name="_method" value="delete"/>
+        </form>
+
+    </div>
+</div>
+<script>
+    feather.replace()
+</script>
+<script>
+    $(".deleteBtn").click(function () {
+        //删除当前员工的
+        $("#deleteEmpForm").attr("action", $(this).attr("del_uri")).submit();
+        return false;
+    });
+</script>
+
+</body>
+
+</html>

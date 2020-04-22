@@ -1,0 +1,323 @@
+2020-04-10 15:49:58.129 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 14028 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 15:49:58.135 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 15:49:58.185 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 15:49:58.186 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 15:49:58.186 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 15:49:59.116 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 15:49:59.169 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 40ms. Found 0 JPA repository interfaces.
+2020-04-10 15:50:00.003 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 15:50:00.018 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 15:50:00.019 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 15:50:00.142 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 15:50:00.143 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1957 ms
+2020-04-10 15:50:00.437 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 15:50:00.654 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 15:50:00.807 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 15:50:00.976 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 15:50:01.113 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 15:50:01.338 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 15:50:01.348 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 15:50:01.803 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 15:50:01.927 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 15:50:02.376 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-10 15:50:02.386 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-10 15:50:02.399 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 15:50:02.400 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 15:50:02.410 INFO  com.alibaba.druid.pool.DruidDataSource Line:1818 - {dataSource-1} closed
+2020-04-10 15:50:13.649 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 18040 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 15:50:13.652 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 15:50:13.696 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 15:50:13.696 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 15:50:13.697 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 15:50:14.513 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 15:50:14.563 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-04-10 15:50:15.247 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 15:50:15.257 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 15:50:15.258 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 15:50:15.380 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 15:50:15.380 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1683 ms
+2020-04-10 15:50:15.628 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 15:50:15.772 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 15:50:15.830 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 15:50:15.976 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 15:50:16.074 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 15:50:16.235 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 15:50:16.243 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 15:50:16.633 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 15:50:16.702 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 15:50:17.048 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-10 15:50:17.055 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-10 15:50:17.075 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 15:50:17.076 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 15:50:17.084 INFO  com.alibaba.druid.pool.DruidDataSource Line:1818 - {dataSource-1} closed
+2020-04-10 15:50:45.301 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 6432 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 15:50:45.305 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 15:50:45.344 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 15:50:45.345 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 15:50:45.345 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 15:50:46.126 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 15:50:46.178 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 42ms. Found 0 JPA repository interfaces.
+2020-04-10 15:50:46.859 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 15:50:46.871 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 15:50:46.872 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 15:50:46.998 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 15:50:46.998 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1652 ms
+2020-04-10 15:50:47.195 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 15:50:47.379 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 15:50:47.445 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 15:50:47.551 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 15:50:47.663 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 15:50:47.819 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 15:50:47.826 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 15:50:48.194 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 15:50:48.259 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 15:50:48.553 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 15:50:48.600 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 15:50:48.603 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.095 seconds (JVM running for 5.142)
+2020-04-10 16:17:26.291 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 13264 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:17:26.294 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:17:26.341 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:17:26.342 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:17:26.342 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:17:27.131 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:17:27.182 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-04-10 16:17:27.901 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:17:27.912 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:17:27.913 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:17:28.034 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:17:28.035 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1692 ms
+2020-04-10 16:17:28.314 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:17:28.475 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:17:28.541 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:17:28.659 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:17:28.765 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:17:28.939 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:17:28.948 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:17:29.285 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:17:29.359 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:17:29.658 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:17:29.709 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:17:29.712 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.196 seconds (JVM running for 5.188)
+2020-04-10 16:17:34.432 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:17:34.434 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:17:34.441 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 7 ms
+2020-04-10 16:18:54.430 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 20040 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:18:54.434 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:18:54.477 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:18:54.478 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:18:54.478 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:18:55.312 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:18:55.368 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
+2020-04-10 16:18:56.131 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:18:56.143 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:18:56.144 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:18:56.261 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:18:56.261 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1783 ms
+2020-04-10 16:18:56.572 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:18:56.720 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:18:56.780 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:18:56.932 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:18:57.094 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:18:57.281 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:18:57.291 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:18:57.686 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:18:57.761 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:18:58.080 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:18:58.137 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:18:58.141 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.55 seconds (JVM running for 5.592)
+2020-04-10 16:18:58.325 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:18:58.325 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:18:58.333 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 7 ms
+2020-04-10 16:19:49.839 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 16712 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:19:49.843 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:19:49.890 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:19:49.891 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:19:49.891 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:19:50.729 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:19:50.776 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 37ms. Found 0 JPA repository interfaces.
+2020-04-10 16:19:51.456 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:19:51.468 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:19:51.468 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:19:51.599 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:19:51.600 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1708 ms
+2020-04-10 16:19:51.906 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:19:52.077 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:19:52.149 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:19:52.275 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:19:52.377 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:19:52.536 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:19:52.546 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:19:52.864 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:19:53.012 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:19:53.345 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:19:53.411 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:19:53.415 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.428 seconds (JVM running for 5.491)
+2020-04-10 16:19:53.686 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:19:53.687 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:19:53.697 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 9 ms
+2020-04-10 16:30:34.980 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 12120 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:30:34.984 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:30:35.023 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:30:35.024 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:30:35.024 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:30:35.792 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:30:35.844 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 42ms. Found 0 JPA repository interfaces.
+2020-04-10 16:30:36.647 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:30:36.659 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:30:36.660 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:30:36.802 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:30:36.803 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1779 ms
+2020-04-10 16:30:37.088 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:30:37.233 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:30:37.311 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:30:37.433 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:30:37.622 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:30:37.835 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:30:37.846 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:30:38.207 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:30:38.299 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:30:38.612 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:30:38.665 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:30:38.668 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.479 seconds (JVM running for 5.494)
+2020-04-10 16:30:42.062 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:30:42.063 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:30:42.071 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 7 ms
+2020-04-10 16:31:46.603 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 13656 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:31:46.607 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:31:46.652 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:31:46.653 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:31:46.654 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:31:47.408 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:31:47.457 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
+2020-04-10 16:31:48.181 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:31:48.192 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:31:48.192 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:31:48.303 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:31:48.303 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1649 ms
+2020-04-10 16:31:48.601 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:31:48.769 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:31:48.829 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:31:48.948 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:31:49.059 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:31:49.235 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:31:49.244 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:31:49.582 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:31:49.649 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:31:49.942 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:31:49.994 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:31:49.997 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.28 seconds (JVM running for 5.366)
+2020-04-10 16:31:50.187 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:31:50.187 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:31:50.194 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 7 ms
+2020-04-10 16:32:51.269 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 5040 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:32:51.273 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:32:51.316 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:32:51.316 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:32:51.317 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:32:52.138 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:32:52.189 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-04-10 16:32:52.907 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:32:52.921 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:32:52.922 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:32:53.039 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:32:53.040 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1723 ms
+2020-04-10 16:32:53.330 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:32:53.486 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:32:53.607 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:32:53.744 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:32:53.847 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:32:54.032 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:32:54.041 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:32:54.386 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:32:54.457 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:32:54.788 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:32:54.848 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:32:54.851 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.457 seconds (JVM running for 5.605)
+2020-04-10 16:32:56.064 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:32:56.065 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:32:56.090 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 24 ms
+2020-04-10 16:35:05.024 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 8300 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:35:05.028 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:35:05.079 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:35:05.079 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:35:05.080 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:35:05.900 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:35:05.950 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-04-10 16:35:06.627 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:35:06.637 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:35:06.638 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:35:06.746 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:35:06.746 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1666 ms
+2020-04-10 16:35:07.016 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:35:07.159 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:35:07.217 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:35:07.363 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:35:07.461 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:35:07.615 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:35:07.623 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:35:07.936 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:35:08.004 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:35:08.294 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:35:08.343 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:35:08.346 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.138 seconds (JVM running for 5.244)
+2020-04-10 16:35:09.942 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:35:09.943 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:35:09.968 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 25 ms
+2020-04-10 16:43:54.978 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 18696 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:43:54.982 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:43:55.023 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:43:55.024 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:43:55.024 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:43:55.818 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:43:55.870 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 43ms. Found 0 JPA repository interfaces.
+2020-04-10 16:43:56.568 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:43:56.579 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:43:56.580 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:43:56.704 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:43:56.704 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1680 ms
+2020-04-10 16:43:56.993 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:43:57.148 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:43:57.216 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:43:57.329 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:43:57.430 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:43:57.586 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:43:57.594 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:43:57.920 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:43:57.984 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:43:58.283 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:43:58.344 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:43:58.347 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.202 seconds (JVM running for 5.297)
+2020-04-10 16:43:58.580 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:43:58.580 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:43:58.589 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 8 ms
+2020-04-10 16:45:56.789 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:55  - Starting SpringMybatisApplication on DESKTOP-08P5REU with PID 13432 (E:\JavaWorkSpace\spring-mybatis\target\classes started by zm in E:\JavaWorkSpace\spring-mybatis)
+2020-04-10 16:45:56.792 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-10 16:45:56.839 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in E:\Java\MavenRepository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/Java/MavenRepository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 16:45:56.840 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:45:56.840 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:45:57.628 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 16:45:57.677 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
+2020-04-10 16:45:58.354 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:45:58.364 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-10 16:45:58.364 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:45:58.487 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:45:58.488 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1648 ms
+2020-04-10 16:45:58.783 INFO  com.alibaba.druid.pool.DruidDataSource Line:923 - {dataSource-1} inited
+2020-04-10 16:45:58.947 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 16:45:59.029 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 16:45:59.151 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 16:45:59.249 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-10 16:45:59.403 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 16:45:59.410 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 16:45:59.768 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:45:59.835 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:54  - Adding welcome page: class path resource [public/index.html]
+2020-04-10 16:46:00.156 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-10 16:46:00.209 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 16:46:00.212 INFO  com.zzm.springmybatis.SpringMybatisApplication Line:61  - Started SpringMybatisApplication in 4.263 seconds (JVM running for 5.423)
+2020-04-10 16:46:00.530 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:46:00.531 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:46:00.544 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 12 ms
