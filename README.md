@@ -9,3 +9,9 @@
 展示个人上传的 论文/专利 文件，展示个人历史周报。
 ![image](https://github.com/zzm96/LabFileSystem/blob/master/image/2.png)
 ![image](https://github.com/zzm96/LabFileSystem/blob/master/image/3.png)
+## 成员页面
+普通用户可查看所有成员基本信息；  
+管理员可编辑，添加，删除成员。  
+![image](https://github.com/zzm96/LabFileSystem/blob/master/image/4.png)
+![image](https://github.com/zzm96/LabFileSystem/blob/master/image/5.png)
+![image](https://github.com/zzm96/LabFileSystem/blob/master/image/6.png)
